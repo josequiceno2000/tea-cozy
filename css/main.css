@@ -1,0 +1,11 @@
+/* Importing */
+@import url('reset.css');
+@import url('variables.css');
+@import url('typography.css');
+
+/* Component Importing */
+@import url('components/header.css');
+@import url('components/cards.css');
+@import url('components/buttons.css');
+@import url('components/footer.css');
+
