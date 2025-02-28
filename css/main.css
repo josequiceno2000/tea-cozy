@@ -50,3 +50,34 @@ li a {
     font-size: 22px;
 }
 
+/* Sections */
+#our-mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url('../assets/images/mission-background.jpg');
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    background-color: var(--background);
+    width: 100%;
+    text-align: center;
+    flex-flow: 1 1 auto;
+}
+
+h2,
+h4 {
+    color: var(--text-color);
+    font-family: "Helvetica", sans-serif;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
