@@ -1,11 +1,52 @@
-/* Importing */
-@import url('reset.css');
-@import url('variables.css');
-@import url('typography.css');
+/* Variables */
+:root {
+    /* Colors */
+    --primary-color: rgb(10, 10, 10);
+    --secondary-color: rgb(255, 244, 236);
+    --accent-color: rgb(18, 207, 112);
+    --text-color: seashell;
+    --background: rgb(10, 10, 10);
+}
 
-/* Component Importing */
-@import url('components/header.css');
-@import url('components/cards.css');
-@import url('components/buttons.css');
-@import url('components/footer.css');
+
+/* Whole Page */
+body {
+    background-color: var(--background);
+    font-family: "Helvetica", sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figure {
+    padding-left: 10px;
+    flex: 0 1 auto;
+}
+
+.logo {
+    height: 50px;
+    flex: 0 1 auto;
+}
+
+
+nav ul {
+    display: inline-flex;
+    flex-flow: row wrap;
+    flex-flow: 1 1 120px;
+    justify-content: space-between;
+}
+
+li {
+    margin: 0 10px;
+}
+
+li a {
+    color: var(--text-color);
+    font-size: 22px;
+}
 
