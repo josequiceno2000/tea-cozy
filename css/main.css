@@ -122,4 +122,45 @@ h4 {
 }
 
 /* Locations */
+#locations {
+    background-image: url('../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.location {
+    background-color: var(--background);
+    text-align: center;
+    flex-flow: 1 1 auto;
+}
+
+h3,
+p {
+    color: var(--text-color);
+}
+
+h3 {
+    font-size: 30px;
+    padding: 0 80px;
+}
+
+.location p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
 
