@@ -1,0 +1,15 @@
+:root {
+    /* Colors */
+    --primary-color: rgb(10, 10, 10);
+    --secondary-color: rgb(255, 244, 236);
+    --accent-color: rgb(18, 207, 112);
+    --text-color: rgb(255, 244, 236);
+    --background: rgb(10, 10, 10);
+
+    /* Typography */
+    --body-font: "Helvetica", sans-serif;
+    --base-font-size: 22px;
+
+}
+
+
